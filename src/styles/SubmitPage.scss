@@ -1,0 +1,153 @@
+@import './root.scss';
+
+.submit-container {    
+    height: fit-content;
+    min-height: 1000px;
+    background-color: $dark_glue;   
+    padding-top: 150px;
+    padding-bottom: 20px;    
+    display: flex;
+    flex-direction: column; 
+}
+
+.text-container div{
+    display: flex;
+    justify-content: center;
+}
+.text-container h1 {
+    width: 50%;
+    color: $white;
+   text-align: center;
+    
+}
+
+.stars-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.stars-container img {
+    width: 36px;
+}
+
+#star-1 {
+    opacity: 33%;
+}
+
+#star-2 {
+    opacity: 66%;
+}
+
+#star-3 {
+    opacity: 100%;
+}
+
+
+
+.message-container {
+    width: fit-content;
+    margin-top: 50px;
+    align-self: center;
+    margin-top: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.message-container h2 {
+    color: $white;
+    text-align: center;
+
+}
+
+.message-container p {
+    color: $light_grey;
+    font-size: $normal_size;
+    text-align: start;
+
+}
+
+.calification-container {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-top: 35px;
+    margin-bottom: 60px;
+    justify-content: center;
+}
+
+@media screen and (max-width: 779px) {
+    .calification-container {
+        flex-wrap: wrap;
+    }
+
+    .message-container p {
+        font-size: 30px;
+    }
+}
+
+.calification-container .circle {
+    width: 80px;
+    max-width: 80px;
+    min-width: 80px;
+    height: 80px;
+    max-height: 80px;
+    min-height: 80px;
+    flex-wrap: wrap;
+    background-color: $light_grey;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin-left: 25px;
+    margin-right: 25px;
+    cursor: pointer;
+    margin-bottom: 25px;
+    box-shadow: -1px -1px 55px 13px rgba(0, 0, 0, 0.42) inset;
+    -webkit-box-shadow: -1px -1px 55px 13px rgba(0, 0, 0, 0.42) inset;
+    -moz-box-shadow: -1px -1px 55px 13px rgba(0, 0, 0, 0.42) inset;
+    transition-duration: 250ms;
+}
+
+.calification-container .circle:hover {
+    box-shadow: -1px -1px 55px 35px rgba(251, 116, 19, 0.88) inset;
+    -webkit-box-shadow: -1px -1px 55px 35px rgba(251, 116, 19, 0.88) inset;
+    -moz-box-shadow: -1px -1px 55px 35px rgba(251, 116, 19, 0.88) inset;
+    cursor: pointer;
+}
+
+.active {
+   background-color: rgb(250, 124, 34) !important;
+   box-shadow: none;
+}
+
+
+.calification-container .circle p {
+    margin: 0 auto;
+    font-size: large;
+    font-weight: bold;
+    color: $very_dark_blue;
+}
+
+#submit-button {
+    border-radius: 50px;
+    font-size: $normal_size;
+    color: $white;
+    background-color: $orange;
+    border: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+    transition-duration: 150ms;
+    margin: 0 auto;
+}
+
+#submit-button:hover{
+    box-shadow: -6px -104px 52px -58px rgba(0,0,0,0.28) inset;
+    -webkit-box-shadow: -6px -104px 52px -58px rgba(0,0,0,0.28) inset;
+    -moz-box-shadow: -6px -104px 52px -58px rgba(0,0,0,0.28) inset;
+}

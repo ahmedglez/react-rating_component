@@ -1,0 +1,56 @@
+@import url("https://fonts.google.com/specimen/Overpass");
+/**** Layout ****/
+/**** Colors ****/
+/**** Typography ****/
+.main-container {
+  width: 100%;
+  height: 930px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 35px 35px 35px 35px;
+  background-color: #252d37;
+  overflow-x: hidden;
+}
+
+.logo-container {
+  width: 30%;
+  max-height: 300px;
+  min-width: 250px;
+  background-size: cover;
+  margin-top: 50px;
+  margin-bottom: 120px;
+}
+
+.logo-container img {
+  width: 100%;
+}
+
+.counted {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 35px;
+}
+
+.counted h3 {
+  color: white;
+}
+
+.counted span {
+  color: #fb7413;
+}
+
+.main-container h2 {
+  color: white;
+  margin-bottom: 30px;
+}
+
+.main-container p {
+  color: white;
+  font-size: 36px;
+  width: 60%;
+  text-align: center;
+}
