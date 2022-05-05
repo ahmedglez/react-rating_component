@@ -13,13 +13,13 @@ const TitleComponent = (props) => {
 			</div>
 
 			<div className='row stars-container'>
-				<div id='star-1' className='col-1'>
+				<div className='col-2'>
 					<img src={star} alt='star logo' />
 				</div>
-				<div className='col-1'>
+				<div className='col-2'>
 					<img id='star-2' src={star} alt='star logo' />
 				</div>
-				<div className='col-1 '>
+				<div className='col-2 '>
 					<img id='star-3' src={star} alt='star logo' />
 				</div>
 			</div>

@@ -21,18 +21,21 @@
   width: 50%;
   color: white;
   text-align: center;
+  min-width: 400px;
 }
 
 .stars-container {
+  min-width: 100px;
   display: flex;
-  justify-content: center;
   flex-direction: row;
-  margin-top: 25px;
   text-align: center;
+  justify-content: center;
 }
 
 .stars-container img {
   width: 36px;
+  min-width: 30px;
+  margin-top: 30px;
 }
 
 #star-1 {
@@ -49,11 +52,10 @@
 
 .message-container {
   width: fit-content;
+  min-width: 450px;
   margin-top: 50px;
   align-self: center;
   margin-top: 60px;
-  padding-left: 100px;
-  padding-right: 100px;
 }
 
 .message-container h2 {
@@ -64,7 +66,7 @@
 .message-container p {
   color: rgba(149, 158, 172, 0.47);
   font-size: 40px;
-  text-align: start;
+  text-align: center;
 }
 
 .calification-container {

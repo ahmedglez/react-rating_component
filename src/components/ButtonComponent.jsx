@@ -14,7 +14,7 @@ function ButtonComponent({ active }) {
 		<Button
 			variant='success'
 			id='submit-button'
-			className='col-lg-8 mt-2'
+			className='col-10 mt-2'
 			type='submit'
 			onClick={handleClick}
 			disabled={!active}>
